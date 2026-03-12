@@ -1,0 +1,132 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: ease-in-out .2s;
+}
+
+
+body{
+    margin:0px ;
+}
+h1 {
+    font-size: 100px;
+}
+section.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/edho-pratama-T6fDN60bMWY-unsplash1.jpg);
+    background-size: cover;
+    padding:1vw;
+    margin: 0px;
+}
+.heroText {
+    padding-top: 30vh;
+}
+section#picNav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*hero btn*/
+.hero .outerClick {
+    height: 50px;
+    width: 150px;
+    background-color: #9e9e9e33;
+    border: solid 2px #000000;
+}
+
+.outerClick a{
+  height: 100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  color:grey;
+}
+
+.outerClick p {
+  display: inline-block;
+  margin:auto;
+  font-family:helvetica, sans-serif;
+}
+
+.outerClick:hover {
+    background: black;
+}
+
+.outerClick:hover p{
+    color: white;
+}
+
+/*ex2*/
+
+#picNav .outerClick{
+    height: 300px;
+  background-color:rgba(0, 0, 0, 0.149);
+}
+#picNav .outerClick a {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#picNav .print {
+    display: flex;
+    justify-content: center;
+        background-image: url(../images/print.jpg);
+    background-size: cover;
+}
+
+#picNav .seo {
+    display: flex;
+    justify-content: center;
+        background-image: url(../images/seo.jpg);
+    background-size: cover;
+}
+
+#picNav .strategy {
+    display: flex;
+    justify-content: center;
+        background-image: url(../images/strat.jpg);
+    background-size: cover;
+}
+
+#picNav .web {
+    display: flex;
+    justify-content: center;
+        background-image: url(../images/web.jpg);
+    background-size: cover;
+}
+
+/******nav*******/
+
+li {
+    list-style: none;
+    padding:.5em;
+}
+
+nav{
+    display: flex;
+        justify-content: space-between;
+          font-size:20px;
+  background-color:black;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+
+}
+nav a{
+    color:white;
+      text-decoration:none;
+    padding:.5em;
+}
+
+ul.navItems {
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
